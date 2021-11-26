@@ -81,8 +81,8 @@ function fetchBookmarks() {
   // Create bookmarks array in localStorage
     bookmarks = [
       {
-        name: 'Asphalt Dune',
-        url: 'http://asphaltdune.com',
+        name: 'Nina',
+        url: 'https://nina.vercel.app',
       },
     ];
     localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
